@@ -1,0 +1,40 @@
+message Integration
+email Integration
+OTP Generation
+Delivery Report
+Balance Check
+Template Creation
+Transport Module
+Principal Module
+Staff Module
+Faculty Module
+Student Module
+Organization module
+Management Module
+Birthday Wishes
+Marriage Anniversary wishes
+MultiUser Login
+Reports
+
+Features
+//Principal will create Template
+Different Types of Template Creation
+	*Festival Template
+	*Attendence Report
+	*Progress Report
+	*National Festival
+	*Transport Template
+	*Parents Meeting
+	*Events 
+	*Achievements
+	*Advertise
+	*Meeting 
+	*Birthday
+	*Marriage Wish
+	*Career
+	*News
+	*Management
+
+Data backup from server 
+	Need to write script for automatic back up
+

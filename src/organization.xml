@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.messageserver.entity.Organization" table="organization"
+		dynamic-insert="true" dynamic-update="true">
+		<id name="orgId" column="orgId" type="int">
+			<generator class="increment" />
+		</id>
+		<property name="orgName" column="orgName" />
+		<property name="telphone" column="telphone" />
+		<property name="motto" column="motto" />
+		
+		<property name="description" column="description" />
+		<many-to-one name="orgAddress" column="address" 
+       class="com.messageserver.entity.Address"  cascade="all" lazy="false" />
+	</class>
+
+</hibernate-mapping>

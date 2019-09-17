@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.messageserver.entity.Address" table="address"
+		dynamic-insert="true" dynamic-update="true">
+		<id name="addrId" column="addrId" type="int">
+			<generator class="increment" />
+		</id>
+		<property name="addressLine1" column="addressLine1" />
+		<property name="addressLine2" column="addressLine2" />
+		<property name="city" column="city" />
+		
+		<property name="postcode" column="postcode" />
+		
+	</class>
+
+</hibernate-mapping>
